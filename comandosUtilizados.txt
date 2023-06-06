@@ -1,0 +1,12 @@
+git config --local user.name "mi_monbre"
+git config --local user.email "mi_correo"
+git remote add origin https://github.com/mayer-2906/20230605-LeydiMarielaCandeloAscencio.git
+git status
+git add .
+git commit -m "descripciòn del commit"
+git push -u origin "nombre_de_la_rama"
+git branch -m ramaOrigen newRama
+git checkout nombre_de_la_rama
+cd carpeta
+mkdir nombreCarpeta
+touch nombreArchivo
